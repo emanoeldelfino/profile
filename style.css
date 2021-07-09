@@ -1,0 +1,38 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+#card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 75vw;
+  max-width: 700px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#background {
+  width: 100%;
+}
+
+#profile {
+  border-radius: 50%;
+  width: 15vw;
+  min-width: 125px;
+  height: auto;
+  box-shadow: 0 0 0 2pt white;
+}
+
+#profile, h1 {
+  position: relative;
+  text-align: center;
+}
